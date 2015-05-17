@@ -17,8 +17,10 @@ import System.IO (BufferMode(NoBuffering), Handle, hSetBuffering, hGetChar, stdi
 -- Before calling this function, you may want to set the input stream to be
 -- non-buffering:
 --
--- @'hSetBuffering' 'stdin' 'NoBuffering'@
--- @string <- 'readUntil' 'stdin' "hello"@
+-- @
+--  'hSetBuffering' 'stdin' 'NoBuffering'
+--  string <- 'readUntil' 'stdin' "hello"
+-- @
 --
 -- Since we are using 'hGetChar', we also throw 'isEOFError' if the EOF is
 -- reached.
