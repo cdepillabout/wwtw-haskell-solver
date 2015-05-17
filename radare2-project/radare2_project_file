@@ -1,6 +1,6 @@
 # r2 rdb project file
 # flags
-[?1000lfs functions
+fs functions
 f fcn_send_sigalarm_in_2_seconds_bcb 0 0x00000bcb 
 f weird_function_opening_socket_cb0 0 0x00000cb0 
 f print_maze_function 1 0x00001254 
