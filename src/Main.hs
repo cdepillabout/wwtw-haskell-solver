@@ -11,7 +11,7 @@ import Control.Monad (when)
 import Data.List (elemIndex, findIndex)
 import Data.Maybe (fromJust, isJust)
 import Data.String.Utils (endswith, startswith)
-import System.IO (BufferMode(NoBuffering), Handle, hFlush, hGetChar, hPutStr, hPutStrLn, hSetBuffering)
+import System.IO (BufferMode(NoBuffering, LineBuffering), Handle, hFlush, hGetChar, hGetContents, hPutStr, hPutStrLn, hSetBuffering)
 import System.Process (CreateProcess(..), StdStream(..), createProcess, proc)
 
 -- | Read character-by-character from a 'Handle' until one of multiple
@@ -294,7 +294,7 @@ solveMaze _ childStdinHandle childStdoutHandle = do
     if endswith graphNumbersString stringReadIn
         then do
             solveMazeStep childStdinHandle childStdoutHandle
-            threadDelay 100000
+            threadDelay 10000
             solveMaze stringReadIn childStdinHandle childStdoutHandle
         else return stringReadIn
 
@@ -308,35 +308,33 @@ writeTardisKey _ childStdinHandle childStdoutHandle = do
 
 writeFirstSelectionOverflow :: String -> Handle -> Handle -> IO (String)
 writeFirstSelectionOverflow _ childStdinHandle childStdoutHandle = do
+    hSetBuffering childStdinHandle LineBuffering
     hPutStr childStdinHandle "11111111\00"
     hFlush childStdinHandle
-    readUntilMultiDebug True childStdoutHandle ["Selection: "]
-
-writeSecondSelectionOverflow :: String -> Handle -> Handle -> IO (String)
-writeSecondSelectionOverflow _ childStdinHandle childStdoutHandle = do
+    putStrLn "******* Wrotes ones..."
+    x <- readUntilMultiDebug False childStdoutHandle ["Selection: "]
+    putStrLn "******* READ AFTER WROTE 111111:"
+    putStrLn x
+    putStrLn "******* Sleeping 3 secs:"
+    threadDelay 3000000
     hPutStrLn childStdinHandle "m+YU"
-    readUntilMultiDebug True childStdoutHandle ["Selection: "]
-
-writeThirdSelectionOverflow :: String -> Handle -> Handle -> IO (String)
-writeThirdSelectionOverflow _ childStdinHandle childStdoutHandle = do
+    putStrLn "******* Wrotes weird thing..."
+    hPutStr childStdinHandle "11111111\00"
+    putStrLn "******* Wrotes ones..."
     hPutStr childStdinHandle "33333333\00"
     hFlush childStdinHandle
-    readUntilMultiDebug True childStdoutHandle ["Coordinates: "]
+    putStrLn "******* Wrotes threes..."
+    -- what <- readUntilMultiDebug True childStdoutHandle ["Coordinates: "]
+    what <- hGetContents childStdoutHandle
+    putStrLn "******* Until coordinates..."
+    putStrLn what
+    return what
 
 mainLoop :: Handle -> Handle -> IO ()
 mainLoop childStdinHandle childStdoutHandle = do
     tardisKeyString <- solveMaze "" childStdinHandle childStdoutHandle
     selectionString <- writeTardisKey tardisKeyString childStdinHandle childStdoutHandle
-    selectionStringAfterOne <- writeFirstSelectionOverflow selectionString
-                                                           childStdinHandle
-                                                           childStdoutHandle
-    selectionStringAfterTwo <- writeSecondSelectionOverflow selectionStringAfterOne
-                                                            childStdinHandle
-                                                            childStdoutHandle
-    selectionStringAfterThree <- writeFirstSelectionOverflow selectionStringAfterTwo
-                                                             childStdinHandle
-                                                             childStdoutHandle
-    coordinatesString <- writeThirdSelectionOverflow selectionStringAfterThree
+    coordinatesString <- writeFirstSelectionOverflow selectionString
                                                      childStdinHandle
                                                      childStdoutHandle
     return ()
