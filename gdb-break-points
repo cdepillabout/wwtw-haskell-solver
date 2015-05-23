@@ -1,0 +1,6 @@
+break *main+84
+break *0x56557d30
+  commands
+    set {int}0xffffd084 = 1
+    continue
+  end

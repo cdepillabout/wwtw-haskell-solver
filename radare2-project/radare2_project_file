@@ -1,0 +1,1152 @@
+# r2 rdb project file
+# flags
+[?1000lfs functions
+f fcn_send_sigalarm_in_2_seconds_bcb 0 0x00000bcb 
+f weird_function_opening_socket_cb0 0 0x00000cb0 
+f print_maze_function 1 0x00001254 
+f loc.00000f78 6 0x00000f78 
+f loc.00001021 6 0x00001021 
+f loc.000014be 10 0x000014be 
+f loc.000014b9 15 0x000014b9 
+f print_maze_fcn 354 0x00002d0d 
+f fcn.00000f7e 169 0x00000f7e 
+f ask_tardis_key_eb8 198 0x00000eb8 
+f fcn.00000e3e 122 0x00000e3e 
+f loc.00000e3c 2 0x00000e3c 
+f fcn.00001b21 2 0x00001b21 
+f loc.00001981 6 0x00001981 
+f loc.00002037 26 0x00002037 
+f loc.00002083 7 0x00002083 
+f fcn.00002d5f 6 0x00002d5f 
+f loc.00002c28 311 0x00002c28 
+f fcn.00002d59 12 0x00002d59 
+f loc.00002e68 7 0x00002e68 
+f fcn.00002ee2 54 0x00002ee2 
+f loc.00002ee0 2 0x00002ee0 
+f fcn.00002ed1 17 0x00002ed1 
+f fcn.00002ce1 398 0x00002ce1 
+f loc.00002cd1 136 0x00002cd1 
+f fcn.00002ad6 523 0x00002ad6 
+f loc.00002acf 7 0x00002acf 
+f fcn.0000208a 2636 0x0000208a 
+f loc.00002088 2 0x00002088 
+f fcn.00002051 57 0x00002051 
+f loc.0000204a 7 0x0000204a 
+f fcn.00001b3c 1301 0x00001b3c 
+f fcn.00002ef0 40 0x00002ef0 
+f loc.00001b25 23 0x00001b25 
+f fcn.00001afb 65 0x00001afb 
+f loc.00001a2c 139 0x00001a2c 
+f fcn.00001987 195 0x00001987 
+f loc.0000169b 1148 0x0000169b 
+f loc.000016a5 1148 0x000016a5 
+f fcn.000014cc 1211 0x000014cc 
+f fcn.000014c8 4 0x000014c8 
+f fcn.00000e08 54 0x00000e08 
+f fcn.00000a56 10 0x00000a56 
+f fcn.00000a46 16 0x00000a46 
+f fcn.00000a36 16 0x00000a36 
+f fcn.00000a26 16 0x00000a26 
+f fcn.00000a16 16 0x00000a16 
+f fcn.00000a06 16 0x00000a06 
+f fcn.000009f6 16 0x000009f6 
+f fcn.000009e6 16 0x000009e6 
+f fcn.000009d6 16 0x000009d6 
+f fcn.000009c6 16 0x000009c6 
+f fcn.000009b6 16 0x000009b6 
+f fcn.000009a6 16 0x000009a6 
+f fcn.00000996 16 0x00000996 
+f fcn.00000986 16 0x00000986 
+f fcn.00000976 16 0x00000976 
+f fcn.00000966 16 0x00000966 
+f fcn.00000956 16 0x00000956 
+f fcn.00000946 16 0x00000946 
+f fcn.00000936 16 0x00000936 
+f fcn.00000916 16 0x00000916 
+f fcn.00000906 16 0x00000906 
+f fcn.000008f6 16 0x000008f6 
+f fcn.000008e6 16 0x000008e6 
+f fcn.000008d6 16 0x000008d6 
+f fcn.000008c6 16 0x000008c6 
+f fcn.000008b6 16 0x000008b6 
+f fcn.000008a6 16 0x000008a6 
+f fcn.00000896 16 0x00000896 
+f fcn.00000886 16 0x00000886 
+f fcn.00000876 16 0x00000876 
+f fcn.00000866 16 0x00000866 
+f fcn.0000085c 10 0x0000085c 
+f loc.00000850 12 0x00000850 
+f fcn.00000926 16 0x00000926 
+f load_address_from_top_of_stack_to_ebx_aa0 4 0x00000aa0 
+f fcn.00000b39 76 0x00000b39 
+f fcn.00000a96 14 0x00000a96 
+f fcn.00000a92 4 0x00000a92 
+fs sections
+f section_end..shstrtab 0 0x000041ae 
+f section..shstrtab 246 0x000040b8 
+f section_end..comment 0 0x000040b8 
+f section..comment 36 0x00004094 
+f section_end..bss 0 0x00005290 
+f section..bss 496 0x000050a0 
+f section_end..data 0 0x00005094 
+f section..data 8 0x0000508c 
+f section_end..got.plt 0 0x0000508c 
+f section..got.plt 140 0x00005000 
+f section_end..got 0 0x00005000 
+f section..got 36 0x00004fdc 
+f section_end..dynamic 0 0x00004fdc 
+f section..dynamic 232 0x00004ef4 
+f section_end..jcr 0 0x00004ef4 
+f section..jcr 4 0x00004ef0 
+f section_end..fini_array 0 0x00004ef0 
+f section..fini_array 4 0x00004eec 
+f section_end..init_array 0 0x00004eec 
+f section..init_array 4 0x00004ee8 
+f section_end..eh_frame 0 0x0000372c 
+f section..eh_frame 828 0x000033f0 
+f section_end..eh_frame_hdr 0 0x000033f0 
+f section..eh_frame_hdr 188 0x00003334 
+f section_end..rodata 0 0x00003332 
+f section..rodata 1050 0x00002f18 
+f section_end..fini 0 0x00002f18 
+f section..fini 20 0x00002f04 
+f section_end..text 0 0x00002f04 
+f section..text 9380 0x00000a60 
+f section_end..plt 0 0x00000a60 
+f section..plt 528 0x00000850 
+f section_end..init 0 0x0000084f 
+f section..init 35 0x0000082c 
+f section_end..rel.plt 0 0x0000082c 
+f section..rel.plt 256 0x0000072c 
+f section_end..rel.dyn 0 0x0000072c 
+f section..rel.dyn 96 0x000006cc 
+f section_end..gnu.version_r 0 0x000006cc 
+f section..gnu.version_r 64 0x0000068c 
+f section_end..gnu.version 0 0x0000068c 
+f section..gnu.version 88 0x00000634 
+f section_end..dynstr 0 0x00000634 
+f section..dynstr 404 0x000004a0 
+f section_end..dynsym 0 0x000004a0 
+f section..dynsym 704 0x000001e0 
+f section_end..gnu.hash 0 0x000001e0 
+f section..gnu.hash 52 0x000001ac 
+f section_end..note.gnu.build_id 0 0x000001ac 
+f section..note.gnu.build_id 36 0x00000188 
+f section_end..note.ABI_tag 0 0x00000188 
+f section..note.ABI_tag 32 0x00000168 
+f section_end..interp 0 0x00000167 
+f section..interp 19 0x00000154 
+fs symbols
+f sym.imp.close 16 0x00000a50 
+f sym.imp.connect 16 0x00000a40 
+f sym.imp._ITM_registerTMCloneTable 16 0x00000000 
+f sym.imp.atof 16 0x00000a30 
+f sym.imp.socket 16 0x00000a20 
+f sym.imp.sprintf 16 0x00000a10 
+f sym.imp._Jv_RegisterClasses 16 0x00000000 
+f sym.imp.htonl 16 0x00000a00 
+f sym.imp.stdout 16 0x00000000 
+f sym.imp.rand 16 0x000009f0 
+f sym.imp.gmtime 16 0x000009e0 
+f sym.imp.stdin 16 0x00000000 
+f sym.imp.write 16 0x000009d0 
+f sym.imp.__libc_start_main 16 0x000009c0 
+f sym.imp.strlen 16 0x000009b0 
+f sym.imp.strchr 16 0x000009a0 
+f sym.imp.srand 16 0x00000990 
+f sym.imp.strftime 16 0x00000980 
+f sym.imp.exit 16 0x00000970 
+f sym.imp.__gmon_start__ 16 0x00000960 
+f sym.imp.puts 16 0x00000950 
+f sym.imp.isalnum 16 0x00000940 
+f sym.imp.fwrite 16 0x00000930 
+f sym.imp.__cxa_finalize 16 0x00000920 
+f sym.imp.htons 16 0x00000910 
+f sym.imp.__stack_chk_fail 16 0x00000900 
+f sym.imp.alarm 16 0x000008f0 
+f sym.imp.signal 16 0x000008e0 
+f sym.imp.time 16 0x000008d0 
+f sym.imp.fgets 16 0x000008c0 
+f sym.imp.bzero 16 0x000008b0 
+f sym.imp.getchar 16 0x000008a0 
+f sym.imp.stderr 16 0x00000000 
+f sym.imp.fflush 16 0x00000890 
+f sym.imp.printf 16 0x00000880 
+f sym.imp._ITM_deregisterTMCloneTable 16 0x00000000 
+f sym.imp.read 16 0x00000870 
+f sym.imp.setsockopt 16 0x00000860 
+f sym.main 707 0x00001205 
+f sym.__bss_start 0 0x00005094 
+f sym._IO_stdin_used 4 0x00002f1c 
+f sym._end 0 0x00005290 
+f sym._edata 0 0x00005094 
+fs relocs
+f reloc.close 4 0x00005088 
+f reloc.connect 4 0x00005084 
+f reloc.atof 4 0x00005080 
+f reloc.socket 4 0x0000507c 
+f reloc.sprintf 4 0x00005078 
+f reloc.htonl 4 0x00005074 
+f reloc.rand 4 0x00005070 
+f reloc.gmtime 4 0x0000506c 
+f reloc.write 4 0x00005068 
+f reloc.__libc_start_main 4 0x00005064 
+f reloc.strlen 4 0x00005060 
+f reloc.strchr 4 0x0000505c 
+f reloc.srand 4 0x00005058 
+f reloc.strftime 4 0x00005054 
+f reloc.exit 4 0x00005050 
+f reloc.__gmon_start__ 4 0x0000504c 
+f reloc.puts 4 0x00005048 
+f reloc.isalnum 4 0x00005044 
+f reloc.fwrite 4 0x00005040 
+f reloc.__cxa_finalize 4 0x0000503c 
+f reloc.htons 4 0x00005038 
+f reloc.__stack_chk_fail 4 0x00005034 
+f reloc.alarm 4 0x00005030 
+f reloc.signal 4 0x0000502c 
+f reloc.time 4 0x00005028 
+f reloc.fgets 4 0x00005024 
+f reloc.bzero 4 0x00005020 
+f reloc.getchar 4 0x0000501c 
+f reloc.fflush 4 0x00005018 
+f reloc.printf 4 0x00005014 
+f reloc.read 4 0x00005010 
+f reloc.setsockopt 4 0x0000500c 
+fs strings
+f entry0 256 0x00000a60 
+f str.Finally...theTARDIS_ 22 0x0000330e 
+f str.Youescapedoneroom_onlytofind... 38 0x000032e8 
+f str.But_mostimportantly_don_tblink_ 36 0x000032c4 
+f str.Gothroughtheexits_E_togettothenextroomandcontinueyoursearch. 74 0x00003278 
+f str.You__V___mustfindyourwaytotheTARDIS_T_byavoidingtheangels_A_. 73 0x0000322c 
+f str.Tooslow_ 10 0x00003220 
+f str.Yourmove_w_a_s_d_q__ 24 0x0000319f 
+f str._02d 6 0x00003199 
+f str.012345678901234567890 25 0x00003180 
+f str.Invalid 8 0x000031b7 
+f str.Accessdeniedexceptbetween_sand_s 39 0x00003140 
+f str.TheTARDISconsoleisonline_ 30 0x00003122 
+f str._b_d_Y_H__M__S_Z 21 0x0000310d 
+f str.WelcometotheTARDIS_ 23 0x000030f6 
+f str.Enjoy1960... 14 0x00003324 
+f str.Wrongkey_ 11 0x000030dd 
+f str.Yousafelytraveltocoordinates_s 36 0x000030b8 
+f str.wouldripaholeintimeandspace.Chooseagain. 50 0x00003084 
+f str.isoccupiedbyanotherTARDIS.Materializingthere 54 0x0000304c 
+f str.Coordinate 12 0x0000303d 
+f str._f__f 7 0x00003035 
+f str.Invalidcoordinates 20 0x00003021 
+f str.Coordinates_ 14 0x00003013 
+f str.TARDISKEY_ 13 0x00003006 
+f str.Selection_ 12 0x00002ffa 
+f str.3.Dematerialize 17 0x00002fe9 
+f str.2.LeavetheTARDIS 20 0x00002fd5 
+f str.1.Turnontheconsole 23 0x00002fbe 
+f str.Youroptionsare_ 19 0x00002fab 
+f str.connectfailed 15 0x00002f9c 
+f str.setsockoptfailed 18 0x00002f8a 
+f str.ohshit...failedtocreatesocket 34 0x00002f68 
+f str.Timevortexnotresponding 27 0x00002f4c 
+f str.Unauthorizedoccupantdetected...goodbye 41 0x00002f21 
+# eval
+"e anal.depth = 50"
+"e anal.hasnext = true"
+"e anal.arch = x86"
+"e anal.cpu = x86"
+"e anal.prelude = "
+"e anal.split = true"
+"e anal.ptrdepth = 3"
+"e asm.os = linux"
+"e asm.bytes = true"
+"e asm.cmtflgrefs = true"
+"e asm.cmtright = true"
+"e asm.comments = true"
+"e asm.decode = false"
+"e asm.dwarf = false"
+"e asm.esil = false"
+"e asm.filter = true"
+"e asm.flags = true"
+"e asm.lbytes = true"
+"e asm.lines = true"
+"e asm.linescall = false"
+"e asm.linesout = false"
+"e asm.linesright = false"
+"e asm.linesstyle = false"
+"e asm.lineswide = false"
+"e asm.middle = false"
+"e asm.offset = true"
+"e asm.pseudo = false"
+"e asm.size = false"
+"e asm.stackptr = false"
+"e asm.cycles = false"
+"e asm.tabs = 0"
+"e asm.trace = false"
+"e asm.ucase = false"
+"e asm.varsub = true"
+"e asm.arch = x86"
+"e asm.parser = x86.pseudo"
+"e asm.segoff = false"
+"e asm.cpu = x86"
+"e asm.profile = default"
+"e asm.xrefs = true"
+"e asm.functions = true"
+"e scr.color = true"
+"e asm.syntax = intel"
+"e asm.nbytes = 6"
+"e asm.bytespace = false"
+"e asm.bits = 32"
+"e asm.lineswidth = 7"
+"e bin.baddr = 0"
+"e bin.dwarf = false"
+"e bin.minstr = 0"
+"e bin.rawstr = false"
+"e bin.strings = true"
+"e cfg.bigendian = false"
+"e cfg.datefmt = %d:%m:%Y %H:%M:%S %z"
+"e cfg.debug = false"
+"e cfg.editor = /usr/bin/vim"
+"e cfg.fortunes = true"
+"e cfg.hashlimit = 0x00a00000"
+"e cfg.sandbox = false"
+"e cfg.wseek = false"
+"e diff.from = 0"
+"e diff.to = 0"
+"e dir.magic = /usr/lib/radare2/0.9.7/magic"
+"e dir.plugins = /usr/lib/radare2/0.9.7/"
+"e dir.source = "
+"e dir.types = /usr/include"
+"e dir.projects = ~/.config/radare2/projects"
+"e dbg.backend = native"
+"e dbg.bep = loader"
+"e dbg.follow = 64"
+"e dbg.stopthreads = true"
+"e dbg.swstep = false"
+"e dbg.trace = false"
+"e dbg.trace.tag = 0xff"
+"e cmd.graph = !dot -Tgif -oa.gif a.dot;!xdg-open a.gif"
+"e cmd.depth = 10"
+"e cmd.bp = "
+"e cmd.cprompt = "
+"e cmd.hit = "
+"e cmd.open = "
+"e cmd.prompt = "
+"e cmd.repeat = true"
+"e cmd.visual = "
+"e cmd.vprompt = "
+"e fs.view = normal"
+"e hex.cols = 16"
+"e hex.stride = 0"
+"e http.allow = "
+"e http.browser = xdg-open"
+"e http.maxsize = 0"
+"e http.public = false"
+"e http.root = /usr/share/radare2/0.9.7/www"
+"e http.port = 9090"
+"e http.sandbox = false"
+"e http.timeout = 3"
+"e http.upget = false"
+"e http.upload = false"
+"e http.uri = "
+"e http.uproot = /tmp"
+"e graph.font = Courier"
+"e graph.offset = false"
+"e hud.once = false"
+"e scr.fgets = false"
+"e scr.colorops = true"
+"e scr.colpos = 80"
+"e scr.columns = 0"
+"e scr.rows = 0"
+"e scr.fps = false"
+"e scr.fix_rows = 0"
+"e scr.fix_columns = 0"
+"e scr.interactive = true"
+"e scr.html = false"
+"e scr.nkey = hit"
+"e scr.pager = "
+"e scr.pipecolor = false"
+"e scr.prompt = true"
+"e scr.tee = "
+"e scr.seek = "
+"e scr.rgbcolor = true"
+"e scr.truecolor = false"
+"e scr.null = false"
+"e scr.utf8 = true"
+"e search.align = 0"
+"e search.count = 0"
+"e search.distance = 0"
+"e search.flags = true"
+"e search.from = 0xffffffffffffffff"
+"e search.in = file"
+"e search.kwidx = 0"
+"e search.prefix = hit"
+"e search.show = true"
+"e search.to = 0xffffffffffffffff"
+"e io.buffer = false"
+"e io.buffer.from = 0"
+"e io.buffer.to = 0"
+"e io.cache = false"
+"e io.ffio = true"
+"e io.va = true"
+"e io.zeromap = 0"
+"e file.analyze = false"
+"e file.desc = "
+"e file.md5 = c3722e23150e1d5abbc1c248d99d718d"
+"e file.path = wwtw_c3722e23150e1d5abbc1c248d99d718d"
+"e file.project = what"
+"e file.sha1 = cf17558cef1c3af8b6f8812fa223d1170b0930d2"
+"e file.type = elf"
+"e file.loadmethod = fail"
+"e file.loadalign = 0x00000400"
+"e file.nowarn = false"
+"e magic.depth = 100"
+"e rap.loop = true"
+"e key.f1 = "
+"e key.f2 = dbs $$"
+"e key.f3 = "
+"e key.f4 = "
+"e key.f5 = "
+"e key.f6 = "
+"e key.f7 = ds"
+"e key.f8 = dso"
+"e key.f9 = dc"
+"e key.f10 = "
+"e key.f11 = "
+"e key.f12 = "
+"e zoom.byte = h"
+"e zoom.from = 0"
+"e zoom.maxsz = 512"
+"e zoom.to = 17936"
+# sections
+f section..interp 19 0x154
+S 0x00000154 0x00000154 0x00000013 0x00000013 .interp r--
+f section..note.ABI_tag 32 0x168
+S 0x00000168 0x00000168 0x00000020 0x00000020 .note.ABI_tag r--
+f section..note.gnu.build_id 36 0x188
+S 0x00000188 0x00000188 0x00000024 0x00000024 .note.gnu.build_id r--
+f section..gnu.hash 52 0x1ac
+S 0x000001ac 0x000001ac 0x00000034 0x00000034 .gnu.hash r--
+f section..dynsym 704 0x1e0
+S 0x000001e0 0x000001e0 0x000002c0 0x000002c0 .dynsym r--
+f section..dynstr 404 0x4a0
+S 0x000004a0 0x000004a0 0x00000194 0x00000194 .dynstr r--
+f section..gnu.version 88 0x634
+S 0x00000634 0x00000634 0x00000058 0x00000058 .gnu.version r--
+f section..gnu.version_r 64 0x68c
+S 0x0000068c 0x0000068c 0x00000040 0x00000040 .gnu.version_r r--
+f section..rel.dyn 96 0x6cc
+S 0x000006cc 0x000006cc 0x00000060 0x00000060 .rel.dyn r--
+f section..rel.plt 256 0x72c
+S 0x0000072c 0x0000072c 0x00000100 0x00000100 .rel.plt r--
+f section..init 35 0x82c
+S 0x0000082c 0x0000082c 0x00000023 0x00000023 .init r-x
+f section..plt 528 0x850
+S 0x00000850 0x00000850 0x00000210 0x00000210 .plt r-x
+f section..text 9380 0xa60
+S 0x00000a60 0x00000a60 0x000024a4 0x000024a4 .text r-x
+f section..fini 20 0x2f04
+S 0x00002f04 0x00002f04 0x00000014 0x00000014 .fini r-x
+f section..rodata 1050 0x2f18
+S 0x00002f18 0x00002f18 0x0000041a 0x0000041a .rodata r--
+f section..eh_frame_hdr 188 0x3334
+S 0x00003334 0x00003334 0x000000bc 0x000000bc .eh_frame_hdr r--
+f section..eh_frame 828 0x33f0
+S 0x000033f0 0x000033f0 0x0000033c 0x0000033c .eh_frame r--
+f section..init_array 4 0x4ee8
+S 0x00003ee8 0x00004ee8 0x00000004 0x00000004 .init_array rw-
+f section..fini_array 4 0x4eec
+S 0x00003eec 0x00004eec 0x00000004 0x00000004 .fini_array rw-
+f section..jcr 4 0x4ef0
+S 0x00003ef0 0x00004ef0 0x00000004 0x00000004 .jcr rw-
+f section..dynamic 232 0x4ef4
+S 0x00003ef4 0x00004ef4 0x000000e8 0x000000e8 .dynamic rw-
+f section..got 36 0x4fdc
+S 0x00003fdc 0x00004fdc 0x00000024 0x00000024 .got rw-
+f section..got.plt 140 0x5000
+S 0x00004000 0x00005000 0x0000008c 0x0000008c .got.plt rw-
+f section..data 8 0x508c
+S 0x0000408c 0x0000508c 0x00000008 0x00000008 .data rw-
+f section..bss 496 0x50a0
+S 0x00004094 0x000050a0 0x000001f0 0x000001f0 .bss rw-
+f section..comment 36 0x4094
+S 0x00004094 0x00004094 0x00000024 0x00000024 .comment ---
+f section..shstrtab 246 0x40b8
+S 0x000040b8 0x000040b8 0x000000f6 0x000000f6 .shstrtab ---
+f section.ehdr 17936 0x0
+S 0x00000000 0x00000000 0x00004610 0x00004610 ehdr rwx
+# meta
+Cs 41 0x00002f21 # Unauthorizedoccupantdetected...goodbye
+Cs 27 0x00002f4c # Timevortexnotresponding
+Cs 34 0x00002f68 # ohshit...failedtocreatesocket
+Cs 18 0x00002f8a # setsockoptfailed
+Cs 15 0x00002f9c # connectfailed
+Cs 19 0x00002fab # Youroptionsare_
+Cs 23 0x00002fbe # 1.Turnontheconsole
+Cs 20 0x00002fd5 # 2.LeavetheTARDIS
+Cs 17 0x00002fe9 # 3.Dematerialize
+Cs 12 0x00002ffa # Selection_
+Cs 13 0x00003006 # TARDISKEY_
+Cs 14 0x00003013 # Coordinates_
+Cs 20 0x00003021 # Invalidcoordinates
+Cs 7 0x00003035 # _f__f
+Cs 12 0x0000303d # Coordinate
+Cs 54 0x0000304c # isoccupiedbyanotherTARDIS.Materializingthere
+Cs 50 0x00003084 # wouldripaholeintimeandspace.Chooseagain.
+Cs 36 0x000030b8 # Yousafelytraveltocoordinates_s
+Cs 11 0x000030dd # Wrongkey_
+Cs 14 0x000030e8 # Enjoy1960...
+Cs 23 0x000030f6 # WelcometotheTARDIS_
+Cs 21 0x0000310d # _b_d_Y_H__M__S_Z
+Cs 30 0x00003122 # TheTARDISconsoleisonline_
+Cs 39 0x00003140 # Accessdeniedexceptbetween_sand_s
+Cs 8 0x00003168 # Invalid
+Cs 25 0x00003180 # 012345678901234567890
+Cs 6 0x00003199 # _02d
+Cs 24 0x0000319f # Yourmove_w_a_s_d_q__
+Cs 8 0x000031b7 # Invalid
+Cs 10 0x00003220 # Tooslow_
+Cs 73 0x0000322c # You__V___mustfindyourwaytotheTARDIS_T_byavoidingtheangels_A_.
+Cs 74 0x00003278 # Gothroughtheexits_E_togettothenextroomandcontinueyoursearch.
+Cs 36 0x000032c4 # But_mostimportantly_don_tblink_
+Cs 38 0x000032e8 # Youescapedoneroom_onlytofind...
+Cs 22 0x0000330e # Finally...theTARDIS_
+Cs 14 0x00003324 # Enjoy1960...
+Cd 4 0x00002f1c # _IO_stdin_used
+Cd 16 0x00000000 # imp.stderr
+Cd 16 0x00000000 # imp.stdin
+Cd 16 0x00000000 # imp.stdout
+"CC [0] va=0x00000154 pa=0x00000154 sz=19 vsz=19 rwx=-r-- .interp" @ 0x00000154
+"CC [1] va=0x00000168 pa=0x00000168 sz=32 vsz=32 rwx=-r-- .note.ABI_tag" @ 0x00000168
+"CC [2] va=0x00000188 pa=0x00000188 sz=36 vsz=36 rwx=-r-- .note.gnu.build_id" @ 0x00000188
+"CC [3] va=0x000001ac pa=0x000001ac sz=52 vsz=52 rwx=-r-- .gnu.hash" @ 0x000001ac
+"CC [4] va=0x000001e0 pa=0x000001e0 sz=704 vsz=704 rwx=-r-- .dynsym" @ 0x000001e0
+"CC [5] va=0x000004a0 pa=0x000004a0 sz=404 vsz=404 rwx=-r-- .dynstr" @ 0x000004a0
+"CC [6] va=0x00000634 pa=0x00000634 sz=88 vsz=88 rwx=-r-- .gnu.version" @ 0x00000634
+"CC [7] va=0x0000068c pa=0x0000068c sz=64 vsz=64 rwx=-r-- .gnu.version_r" @ 0x0000068c
+"CC [8] va=0x000006cc pa=0x000006cc sz=96 vsz=96 rwx=-r-- .rel.dyn" @ 0x000006cc
+"CC [9] va=0x0000072c pa=0x0000072c sz=256 vsz=256 rwx=-r-- .rel.plt" @ 0x0000072c
+"CC [10] va=0x0000082c pa=0x0000082c sz=35 vsz=35 rwx=-r-x .init" @ 0x0000082c
+"CC [11] va=0x00000850 pa=0x00000850 sz=528 vsz=528 rwx=-r-x .plt" @ 0x00000850
+"CC [12] va=0x00000a60 pa=0x00000a60 sz=9380 vsz=9380 rwx=-r-x .text" @ 0x00000a60
+"CC [13] va=0x00002f04 pa=0x00002f04 sz=20 vsz=20 rwx=-r-x .fini" @ 0x00002f04
+"CC [14] va=0x00002f18 pa=0x00002f18 sz=1050 vsz=1050 rwx=-r-- .rodata" @ 0x00002f18
+"CC [15] va=0x00003334 pa=0x00003334 sz=188 vsz=188 rwx=-r-- .eh_frame_hdr" @ 0x00003334
+"CC [16] va=0x000033f0 pa=0x000033f0 sz=828 vsz=828 rwx=-r-- .eh_frame" @ 0x000033f0
+"CC [17] va=0x00004ee8 pa=0x00003ee8 sz=4 vsz=4 rwx=-rw- .init_array" @ 0x00004ee8
+"CC [18] va=0x00004eec pa=0x00003eec sz=4 vsz=4 rwx=-rw- .fini_array" @ 0x00004eec
+"CC [19] va=0x00004ef0 pa=0x00003ef0 sz=4 vsz=4 rwx=-rw- .jcr" @ 0x00004ef0
+"CC [20] va=0x00004ef4 pa=0x00003ef4 sz=232 vsz=232 rwx=-rw- .dynamic" @ 0x00004ef4
+"CC [21] va=0x00004fdc pa=0x00003fdc sz=36 vsz=36 rwx=-rw- .got" @ 0x00004fdc
+"CC [22] va=0x00005000 pa=0x00004000 sz=140 vsz=140 rwx=-rw- .got.plt" @ 0x00005000
+"CC [23] va=0x0000508c pa=0x0000408c sz=8 vsz=8 rwx=-rw- .data" @ 0x0000508c
+"CC [24] va=0x000050a0 pa=0x00004094 sz=496 vsz=496 rwx=-rw- .bss" @ 0x000050a0
+"CC [25] va=0x00004094 pa=0x00004094 sz=36 vsz=36 rwx=---- .comment" @ 0x00004094
+"CC [26] va=0x000040b8 pa=0x000040b8 sz=246 vsz=246 rwx=---- .shstrtab" @ 0x000040b8
+"CC print maze" @ 0x00001254
+"CC Welcome to the TARDIS!" @ 0x000012a5
+"CC weird_function_for_opening_socket" @ 0x00001329
+af+ 0x00000a60 54 entry0 f n
+afbb 0x00000a60 0x00000a60 0054 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a92 4 fcn.00000a92 f n
+afbb 0x00000a92 0x00000a92 0004 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a96 14 fcn.00000a96 f n
+afbb 0x00000a96 0x00000a96 0014 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000aa4 72 fcn.00000aa4 f n
+afbb 0x00000aa4 0x00000aa4 0049 0x00000adb 0x00000ad5 n n
+afbb 0x00000aa4 0x00000adb 0010 0x00000ad5 0x00000ae5 n n
+afbb 0x00000aa4 0x00000ad5 0006 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00000aa4 0x00000ae5 0007 0x00000ad5 0xffffffffffffffff n n
+af+ 0x00000aec 77 fcn.00000aec f n
+afbb 0x00000aec 0x00000aec 0050 0x00000b24 0x00000b1e n n
+afbb 0x00000aec 0x00000b24 0010 0x00000b1e 0x00000b2e n n
+afbb 0x00000aec 0x00000b1e 0006 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00000aec 0x00000b2e 0011 0x00000b1e 0xffffffffffffffff n n
+af+ 0x00000b39 76 fcn.00000b39 f n
+afbb 0x00000b39 0x00000b39 0034 0x00000b7f 0x00000b5b n n
+afbb 0x00000b39 0x00000b5b 0010 0x00000b73 0x00000b65 n n
+afbb 0x00000b39 0x00000b65 0014 0x00000b73 0xffffffffffffffff n n
+afbb 0x00000b39 0x00000b73 0012 0x00000b7f 0xffffffffffffffff n n
+afbb 0x00000b39 0x00000b7f 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000aa0 4 load_address_from_top_of_stack_to_ebx_aa0 f n
+afbb 0x00000aa0 0x00000aa0 0004 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000ab0 60 fcn.00000ab0 f n
+afbb 0x00000ab0 0x00000ab0 0037 0x00000adb 0x00000ad5 n n
+afbb 0x00000ab0 0x00000adb 0010 0x00000ad5 0x00000ae5 n n
+afbb 0x00000ab0 0x00000ad5 0006 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00000ab0 0x00000ae5 0007 0x00000ad5 0xffffffffffffffff n n
+af+ 0x00000920 6 sym.imp.__cxa_finalize s n
+afbb 0x00000920 0x00000920 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000926 16 fcn.00000926 f n
+afbb 0x00000926 0x00000926 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x0000085c 10 fcn.0000085c f n
+afbb 0x0000085c 0x0000085c 0010 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000866 16 fcn.00000866 f n
+afbb 0x00000866 0x00000866 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000876 16 fcn.00000876 f n
+afbb 0x00000876 0x00000876 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000886 16 fcn.00000886 f n
+afbb 0x00000886 0x00000886 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000896 16 fcn.00000896 f n
+afbb 0x00000896 0x00000896 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000008a6 16 fcn.000008a6 f n
+afbb 0x000008a6 0x000008a6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000008b6 16 fcn.000008b6 f n
+afbb 0x000008b6 0x000008b6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000008c6 16 fcn.000008c6 f n
+afbb 0x000008c6 0x000008c6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000008d6 16 fcn.000008d6 f n
+afbb 0x000008d6 0x000008d6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000008e6 16 fcn.000008e6 f n
+afbb 0x000008e6 0x000008e6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000008f6 16 fcn.000008f6 f n
+afbb 0x000008f6 0x000008f6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000906 16 fcn.00000906 f n
+afbb 0x00000906 0x00000906 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000916 16 fcn.00000916 f n
+afbb 0x00000916 0x00000916 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000936 16 fcn.00000936 f n
+afbb 0x00000936 0x00000936 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000946 16 fcn.00000946 f n
+afbb 0x00000946 0x00000946 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000956 16 fcn.00000956 f n
+afbb 0x00000956 0x00000956 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000966 16 fcn.00000966 f n
+afbb 0x00000966 0x00000966 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000976 16 fcn.00000976 f n
+afbb 0x00000976 0x00000976 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000986 16 fcn.00000986 f n
+afbb 0x00000986 0x00000986 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000996 16 fcn.00000996 f n
+afbb 0x00000996 0x00000996 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000009a6 16 fcn.000009a6 f n
+afbb 0x000009a6 0x000009a6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000009b6 16 fcn.000009b6 f n
+afbb 0x000009b6 0x000009b6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000009c6 16 fcn.000009c6 f n
+afbb 0x000009c6 0x000009c6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000009d6 16 fcn.000009d6 f n
+afbb 0x000009d6 0x000009d6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000009e6 16 fcn.000009e6 f n
+afbb 0x000009e6 0x000009e6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x000009f6 16 fcn.000009f6 f n
+afbb 0x000009f6 0x000009f6 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000a06 16 fcn.00000a06 f n
+afbb 0x00000a06 0x00000a06 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000a16 16 fcn.00000a16 f n
+afbb 0x00000a16 0x00000a16 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000a26 16 fcn.00000a26 f n
+afbb 0x00000a26 0x00000a26 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000a36 16 fcn.00000a36 f n
+afbb 0x00000a36 0x00000a36 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000a46 16 fcn.00000a46 f n
+afbb 0x00000a46 0x00000a46 0016 0x00000850 0xffffffffffffffff n n
+af+ 0x00000a56 10 fcn.00000a56 f n
+afbb 0x00000a56 0x00000a56 0010 0x00000850 0xffffffffffffffff n n
+af+ 0x00000b85 299 fcn.00000b85 f n
+afbb 0x00000b85 0x00000b85 0039 0x00000bc1 0x00000bac n n
+afbb 0x00000b85 0x00000bc1 0052 0x00000c0f 0x00000bf5 n n
+afbb 0x00000b85 0x00000c0f 0014 0x00000c80 0x00000c1d n n
+afbb 0x00000b85 0x00000c80 0048 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00000b85 0x00000c1d 0076 0x00000c72 0x00000c69 n n
+afbb 0x00000b85 0x00000c72 0014 0x00000caa 0xffffffffffffffff n n
+afbb 0x00000b85 0x00000c69 0009 0x00000c72 0xffffffffffffffff n n
+afbb 0x00000b85 0x00000bf5 0026 0x00000c0f 0xffffffffffffffff n n
+afbb 0x00000b85 0x00000bac 0010 0x00000bc1 0x00000bb6 n n
+afbb 0x00000b85 0x00000bb6 0011 0x00000bc1 0xffffffffffffffff n n
+af+ 0x00000cb0 344 weird_function_with_socket_cb0 f n
+afbb 0x00000cb0 0x00000cb0 0069 0x00000d0f 0x00000cf5 n n
+afbb 0x00000cb0 0x00000d0f 0066 0x00000d7c 0x00000d51 n n
+afbb 0x00000cb0 0x00000d7c 0115 0x00000dfd 0x00000def n n
+afbb 0x00000cb0 0x00000dfd 0011 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00000cb0 0x00000def 0014 0x00000dfd 0xffffffffffffffff n n
+afbb 0x00000cb0 0x00000d51 0043 0x00000d7c 0xffffffffffffffff n n
+afbb 0x00000cb0 0x00000cf5 0026 0x00000d0f 0xffffffffffffffff n n
+af+ 0x00000e08 54 fcn.00000e08 f n
+afbb 0x00000e08 0x00000e08 0027 0x00000e37 0x00000e23 n n
+afbb 0x00000e08 0x00000e23 0013 0x00000e37 0x00000e30 n n
+afbb 0x00000e08 0x00000e30 0007 0x00000e3c 0xffffffffffffffff n n
+afbb 0x00000e08 0x00000e37 0007 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000014c8 4 fcn.000014c8 f n
+afbb 0x000014c8 0x000014c8 0004 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000014cc 1211 fcn.000014cc f n
+afbb 0x000014cc 0x000014cc 0151 0x00001589 0x00001563 n n
+afbb 0x000014cc 0x00001563 0038 0x00001689 0xffffffffffffffff n n
+afbb 0x000014cc 0x00001589 0010 0x0000166c 0x00001593 n n
+afbb 0x000014cc 0x00001593 0010 0x0000166c 0x0000159d n n
+afbb 0x000014cc 0x0000159d 0027 0x000015f1 0x000015b8 n n
+afbb 0x000014cc 0x000015b8 0005 0x000015c6 0x000015bd n n
+afbb 0x000014cc 0x000015bd 0004 0x000015d2 0x000015c1 n n
+afbb 0x000014cc 0x000015c1 0005 0x0000164d 0xffffffffffffffff n n
+afbb 0x000014cc 0x000015c6 0005 0x00001610 0x000015cb n n
+afbb 0x000014cc 0x000015cb 0005 0x0000162f 0x000015d0 n n
+afbb 0x000014cc 0x000015d0 0002 0x0000164d 0xffffffffffffffff n n
+afbb 0x000014cc 0x000015d2 0031 0x0000164d 0xffffffffffffffff n n
+afbb 0x000014cc 0x000015f1 0031 0x0000164d 0xffffffffffffffff n n
+afbb 0x000014cc 0x00001610 0031 0x0000164d 0xffffffffffffffff n n
+afbb 0x000014cc 0x0000162f 0061 0x00001689 0xffffffffffffffff n n
+afbb 0x000014cc 0x0000166c 0043 0x0000152a 0x00001697 n n
+afbb 0x000014cc 0x00001697 0014 0x0000151e 0x000016a5 n n
+afbb 0x000014cc 0x000016a5 0010 0x00001504 0x000016af n n
+afbb 0x000014cc 0x000016af 0010 0x00001504 0x000016b9 n n
+afbb 0x000014cc 0x000016b9 0017 0x000018e4 0x000016ca n n
+afbb 0x000014cc 0x000016ca 0031 0x00001784 0x000016e9 n n
+afbb 0x000014cc 0x000016e9 0005 0x000016f7 0x000016ee n n
+afbb 0x000014cc 0x000016ee 0004 0x0000170e 0x000016f2 n n
+afbb 0x000014cc 0x000016f2 0005 0x00001981 0xffffffffffffffff n n
+afbb 0x000014cc 0x000016f7 0009 0x000017fa 0x00001700 n n
+afbb 0x000014cc 0x00001700 0009 0x0000186d 0x00001709 n n
+afbb 0x000014cc 0x00001709 0005 0x00001981 0xffffffffffffffff n n
+afbb 0x000014cc 0x0000170e 0071 0x00001762 0x00001755 n n
+afbb 0x000014cc 0x00001755 0013 0x0000170e 0x00001762 n n
+afbb 0x000014cc 0x00001762 0034 0x000018df 0xffffffffffffffff n n
+afbb 0x000014cc 0x00001784 0071 0x000017d8 0x000017cb n n
+afbb 0x000014cc 0x000017cb 0013 0x00001784 0x000017d8 n n
+afbb 0x000014cc 0x000017d8 0034 0x000018df 0xffffffffffffffff n n
+afbb 0x000014cc 0x000017fa 0071 0x0000184e 0x00001841 n n
+afbb 0x000014cc 0x00001841 0013 0x000017fa 0x0000184e n n
+afbb 0x000014cc 0x0000184e 0031 0x000018df 0xffffffffffffffff n n
+afbb 0x000014cc 0x0000186d 0071 0x000018c1 0x000018b4 n n
+afbb 0x000014cc 0x000018b4 0013 0x0000186d 0x000018c1 n n
+afbb 0x000014cc 0x000018c1 0035 0x00001981 0xffffffffffffffff n n
+afbb 0x000014cc 0x000018e4 0115 0x00001964 0x00001957 n n
+afbb 0x000014cc 0x00001957 0013 0x000018e4 0x00001964 n n
+afbb 0x000014cc 0x00001964 0035 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00001987 195 fcn.00001987 f n
+afbb 0x00001987 0x00001987 0139 0x000019e1 0x00001a12 n n
+afbb 0x00001987 0x00001a12 0032 0x000019bc 0x00001a32 n n
+afbb 0x00001987 0x00001a32 0012 0x00001a43 0x00001a3e n n
+afbb 0x00001987 0x00001a3e 0005 0x00001a43 0xffffffffffffffff n n
+afbb 0x00001987 0x00001a43 0007 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000950 6 sym.imp.puts s n
+afbb 0x00000950 0x00000950 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a10 6 sym.imp.sprintf s n
+afbb 0x00000a10 0x00000a10 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00001a4a 177 fcn.00001a4a f n
+afbb 0x00001a4a 0x00001a4a 0107 0x00001ab9 0x00001ab5 n n
+afbb 0x00001a4a 0x00001ab9 0016 0x00001ade 0x00001ac9 n n
+afbb 0x00001a4a 0x00001ade 0015 0x00001a6f 0x00001aed n n
+afbb 0x00001a4a 0x00001aed 0014 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00001a4a 0x00001ac9 0021 0x00001ade 0xffffffffffffffff n n
+afbb 0x00001a4a 0x00001ab5 0004 0x00001ab9 0xffffffffffffffff n n
+af+ 0x00001afb 65 fcn.00001afb f n
+afbb 0x00001afb 0x00001afb 0054 0x00001b36 0x00001b31 n n
+afbb 0x00001afb 0x00001b31 0005 0x00001b36 0xffffffffffffffff n n
+afbb 0x00001afb 0x00001b36 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002ef0 40 fcn.00002ef0 f n
+afbb 0x00002ef0 0x00002ef0 0040 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000900 6 sym.imp.__stack_chk_fail s n
+afbb 0x00000900 0x00000900 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002f18 776 fcn.00002f18 f n
+afbb 0x00002f18 0x00002f18 0014 0x00002f9a 0x00002f26 n n
+afbb 0x00002f18 0x00002f9a 0022 0x00002fd0 0x00002fb0 n n
+afbb 0x00002f18 0x00002fd0 0002 0x00003041 0x00002fd2 n n
+afbb 0x00002f18 0x00003041 0021 0x000030bf 0x00003056 n n
+afbb 0x00002f18 0x000030bf 0004 0x000030e3 0x000030c3 n n
+afbb 0x00002f18 0x000030e3 0011 0x0000310e 0x000030ee n n
+afbb 0x00002f18 0x0000310e 0036 0x000031a1 0x00003132 n n
+afbb 0x00002f18 0x000031a1 0002 0x00003215 0x000031a3 n n
+afbb 0x00002f18 0x00003215 0003 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x000031a3 0005 0x0000320d 0x000031a8 n n
+afbb 0x00002f18 0x0000320d 0003 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x000031a8 0004 0x000031d8 0x000031ac n n
+afbb 0x00002f18 0x000031d8 0004 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x000031ac 0015 0x0000321c 0x000031bb n n
+afbb 0x00002f18 0x0000321c 0004 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x000031bb 0013 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x00003132 0021 0x00003167 0x00003147 n n
+afbb 0x00002f18 0x00003167 0005 0x000031cd 0x0000316c n n
+afbb 0x00002f18 0x000031cd 0003 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x0000316c 0053 0x000031a1 0xffffffffffffffff n n
+afbb 0x00002f18 0x00003147 0013 0x000031c8 0x00003154 n n
+afbb 0x00002f18 0x000031c8 0004 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x00003154 0005 0x000031d0 0x00003159 n n
+afbb 0x00002f18 0x000031d0 0004 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002f18 0x00003159 0016 0x00003169 0xffffffffffffffff n n
+afbb 0x00002f18 0x000030ee 0021 0x0000316b 0x00003103 n n
+afbb 0x00002f18 0x00003103 0015 0x00003112 0xffffffffffffffff n n
+afbb 0x00002f18 0x000030c3 0002 0x00003137 0x000030c5 n n
+afbb 0x00002f18 0x000030c5 0003 0x0000312d 0x000030c8 n n
+afbb 0x00002f18 0x000030c8 0010 0x00003136 0x000030d2 n n
+afbb 0x00002f18 0x000030d2 0014 0x0000314f 0x000030e0 n n
+afbb 0x00002f18 0x000030e0 0005 0x000030e5 0xffffffffffffffff n n
+afbb 0x00002f18 0x00003056 0011 0x000030c9 0x00003061 n n
+afbb 0x00002f18 0x00003061 0003 0x00003084 0x00003064 n n
+afbb 0x00002f18 0x00003084 0002 0x000030f5 0x00003086 n n
+afbb 0x00002f18 0x00003086 0002 0x000030f4 0x00003088 n n
+afbb 0x00002f18 0x00003088 0006 0x000030ae 0x0000308e n n
+afbb 0x00002f18 0x000030ae 0014 0x000030dc 0x000030bc n n
+afbb 0x00002f18 0x000030bc 0002 0x0000311f 0x000030be n n
+afbb 0x00002f18 0x000030be 0003 0x000030c1 0xffffffffffffffff n n
+afbb 0x00002f18 0x0000308e 0032 0x00003113 0x000030ae n n
+afbb 0x00002f18 0x00003064 0013 0x000030d6 0x00003071 n n
+afbb 0x00002f18 0x00003071 0002 0x000030dc 0x00003073 n n
+afbb 0x00002f18 0x00003073 0019 0x00003086 0xffffffffffffffff n n
+afbb 0x00002f18 0x00002fd2 0011 0x00003042 0x00002fdd n n
+afbb 0x00002f18 0x00002fdd 0021 0x00003057 0x00002ff2 n n
+afbb 0x00002f18 0x00002ff2 0002 0x0000305d 0x00002ff4 n n
+afbb 0x00002f18 0x00002ff4 0036 0x0000307c 0x00003018 n n
+afbb 0x00002f18 0x00003018 0013 0x00003086 0x00003025 n n
+afbb 0x00002f18 0x00003025 0029 0x000030a6 0x00003042 n n
+afbb 0x00002f18 0x00002fb0 0003 0x00003027 0x00002fb3 n n
+afbb 0x00002f18 0x00002fb3 0029 0x00002fd0 0xffffffffffffffff n n
+afbb 0x00002f18 0x00002f26 0017 0x00002f57 0x00002f37 n n
+afbb 0x00002f18 0x00002f57 0005 0x00002f7c 0x00002f5c n n
+afbb 0x00002f18 0x00002f7c 0006 0x00002fe7 0x00002f82 n n
+afbb 0x00002f18 0x00002f82 0008 0x00002f8a 0x00002f8a n n
+afbb 0x00002f18 0x00002f8a 0002 0x00002ff1 0x00002f8c n n
+afbb 0x00002f18 0x00002f8c 0002 0x00003001 0x00002f8e n n
+afbb 0x00002f18 0x00002f8e 0006 0x00003008 0x00002f94 n n
+afbb 0x00002f18 0x00002f94 0011 0x00002f9f 0xffffffffffffffff n n
+afbb 0x00002f18 0x00002f5c 0002 0x00002fc3 0x00002f5e n n
+afbb 0x00002f18 0x00002f5e 0002 0x00002fd0 0x00002f60 n n
+afbb 0x00002f18 0x00002f60 0028 0x00002f7c 0xffffffffffffffff n n
+afbb 0x00002f18 0x00002f37 0004 0x00002fa0 0x00002f3b n n
+afbb 0x00002f18 0x00002f3b 0026 0x00002fc9 0x00002f55 n n
+afbb 0x00002f18 0x00002f55 0003 0x00002f78 0x00002f58 n n
+af+ 0x00003220 355 fcn.00003220 f n
+afbb 0x00003220 0x00003220 0009 0x0000324a 0x00003229 n n
+afbb 0x00003220 0x0000324a 0022 0x000032cf 0x00003260 n n
+afbb 0x00003220 0x000032cf 0003 0x00003341 0x000032d2 n n
+afbb 0x00003220 0x00003341 0025 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00003220 0x000032d2 0002 0x00003348 0x000032d4 n n
+afbb 0x00003220 0x000032d4 0004 0x00003344 0x000032d8 n n
+afbb 0x00003220 0x000032d8 0002 0x00003306 0x000032da n n
+afbb 0x00003220 0x00003306 0016 0x00003344 0x00003316 n n
+afbb 0x00003220 0x00003316 0004 0x00003382 0x0000331a n n
+afbb 0x00003220 0x00003382 0000 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00003220 0x0000331a 0016 0x0000334a 0x0000332a n n
+afbb 0x00003220 0x0000332a 0028 0x00003346 0xffffffffffffffff n n
+afbb 0x00003220 0x000032da 0007 0x00003301 0x000032e1 n n
+afbb 0x00003220 0x00003301 0002 0x00003323 0x00003303 n n
+afbb 0x00003220 0x00003303 0002 0x00003374 0x00003305 n n
+afbb 0x00003220 0x00003374 0015 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00003220 0x00003305 0003 0x00003308 0xffffffffffffffff n n
+afbb 0x00003220 0x000032e1 0011 0x0000330c 0x000032ec n n
+afbb 0x00003220 0x000032ec 0003 0x00003352 0x000032ef n n
+afbb 0x00003220 0x000032ef 0003 0x00003357 0x000032f2 n n
+afbb 0x00003220 0x000032f2 0015 0x00003301 0xffffffffffffffff n n
+afbb 0x00003220 0x00003260 0017 0x00003299 0x00003271 n n
+afbb 0x00003220 0x00003299 0009 0x00003316 0x000032a2 n n
+afbb 0x00003220 0x000032a2 0015 0x0000331a 0x000032b1 n n
+afbb 0x00003220 0x000032b1 0003 0x00003319 0x000032b4 n n
+afbb 0x00003220 0x000032b4 0005 0x0000332b 0x000032b9 n n
+afbb 0x00003220 0x000032b9 0006 0x00003322 0x000032bf n n
+afbb 0x00003220 0x000032bf 0008 0x0000333b 0x000032c7 n n
+afbb 0x00003220 0x000032c7 0006 0x00003341 0x000032cd n n
+afbb 0x00003220 0x000032cd 0003 0x000032d0 0xffffffffffffffff n n
+afbb 0x00003220 0x00003271 0016 0x000032e8 0x00003281 n n
+afbb 0x00003220 0x00003281 0022 0x000032b7 0x00003297 n n
+afbb 0x00003220 0x00003297 0002 0x00003308 0x00003299 n n
+afbb 0x00003220 0x00003229 0007 0x00003258 0x00003230 n n
+afbb 0x00003220 0x00003230 0009 0x000032ac 0x00003239 n n
+afbb 0x00003220 0x00003239 0002 0x0000325b 0x0000323b n n
+afbb 0x00003220 0x0000323b 0009 0x000032b6 0x00003244 n n
+afbb 0x00003220 0x00003244 0005 0x00003269 0x00003249 n n
+afbb 0x00003220 0x00003249 0002 0x000032ba 0x0000324b n n
+af+ 0x00001b3c 1301 fcn.00001b3c f n
+afbb 0x00001b3c 0x00001b3c 0038 0x00001f0f 0x00001b62 n n
+afbb 0x00001b3c 0x00001b62 0005 0x00001b75 0x00001b67 n n
+afbb 0x00001b3c 0x00001b67 0009 0x00001cb4 0x00001b70 n n
+afbb 0x00001b3c 0x00001b70 0005 0x00002037 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001b75 0009 0x00001de1 0x00001b7e n n
+afbb 0x00001b3c 0x00001b7e 0009 0x00002037 0x00001b87 n n
+afbb 0x00001b3c 0x00001b87 0012 0x00001bab 0x00001b93 n n
+afbb 0x00001b3c 0x00001b93 0024 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001bab 0046 0x00001be3 0x00001bd9 n n
+afbb 0x00001b3c 0x00001bd9 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001be3 0046 0x00001c3f 0x00001c11 n n
+afbb 0x00001b3c 0x00001c11 0046 0x00001c49 0x00001c3f n n
+afbb 0x00001b3c 0x00001c3f 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001c49 0107 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001cb4 0012 0x00001cd8 0x00001cc0 n n
+afbb 0x00001b3c 0x00001cc0 0024 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001cd8 0046 0x00001d10 0x00001d06 n n
+afbb 0x00001b3c 0x00001d06 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001d10 0046 0x00001d6c 0x00001d3e n n
+afbb 0x00001b3c 0x00001d3e 0046 0x00001d76 0x00001d6c n n
+afbb 0x00001b3c 0x00001d6c 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001d76 0107 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001de1 0013 0x00001e06 0x00001dee n n
+afbb 0x00001b3c 0x00001dee 0024 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001e06 0046 0x00001e3e 0x00001e34 n n
+afbb 0x00001b3c 0x00001e34 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001e3e 0046 0x00001e9a 0x00001e6c n n
+afbb 0x00001b3c 0x00001e6c 0046 0x00001ea4 0x00001e9a n n
+afbb 0x00001b3c 0x00001e9a 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001ea4 0107 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001f0f 0013 0x00001f34 0x00001f1c n n
+afbb 0x00001b3c 0x00001f1c 0024 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001f34 0046 0x00001f6c 0x00001f62 n n
+afbb 0x00001b3c 0x00001f62 0010 0x0000204a 0xffffffffffffffff n n
+afbb 0x00001b3c 0x00001f6c 0046 0x00001fc8 0x00001f9a n n
+afbb 0x00001b3c 0x00001f9a 0046 0x00001fcf 0x00001fc8 n n
+afbb 0x00001b3c 0x00001fc8 0137 0x0000204a 0xffffffffffffffff n n
+af+ 0x00002051 57 fcn.00002051 f n
+afbb 0x00002051 0x00002051 0021 0x0000207c 0x00002066 n n
+afbb 0x00002051 0x00002066 0005 0x00002072 0x0000206b n n
+afbb 0x00002051 0x0000206b 0005 0x0000207c 0x00002070 n n
+afbb 0x00002051 0x00002070 0002 0x00002083 0xffffffffffffffff n n
+afbb 0x00002051 0x00002072 0005 0x0000207c 0x00002077 n n
+afbb 0x00002051 0x00002077 0005 0x00002083 0x0000207c n n
+afbb 0x00002051 0x0000207c 0014 0x00002088 0xffffffffffffffff n n
+af+ 0x0000208a 2636 fcn.0000208a f n
+afbb 0x0000208a 0x0000208a 0052 0x000020c8 0x000020be n n
+afbb 0x0000208a 0x000020be 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000020c8 0047 0x0000234b 0x000020f7 n n
+afbb 0x0000208a 0x000020f7 0016 0x00002172 0x00002107 n n
+afbb 0x0000208a 0x00002107 0036 0x00002172 0x0000212b n n
+afbb 0x0000208a 0x0000212b 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002172 0017 0x00002aca 0x00002183 n n
+afbb 0x0000208a 0x00002183 0013 0x000021c9 0x00002190 n n
+afbb 0x0000208a 0x00002190 0047 0x000021c9 0x000021bf n n
+afbb 0x0000208a 0x000021bf 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000021c9 0017 0x00002288 0x000021da n n
+afbb 0x0000208a 0x000021da 0010 0x00002288 0x000021e4 n n
+afbb 0x0000208a 0x000021e4 0047 0x0000221d 0x00002213 n n
+afbb 0x0000208a 0x00002213 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x0000221d 0036 0x00002288 0x00002241 n n
+afbb 0x0000208a 0x00002241 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002288 0017 0x00002aca 0x00002299 n n
+afbb 0x0000208a 0x00002299 0010 0x00002aca 0x000022a3 n n
+afbb 0x0000208a 0x000022a3 0047 0x000022dc 0x000022d2 n n
+afbb 0x0000208a 0x000022d2 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000022dc 0040 0x00002aca 0x00002304 n n
+afbb 0x0000208a 0x00002304 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x0000234b 0047 0x000025ce 0x0000237a n n
+afbb 0x0000208a 0x0000237a 0016 0x000023f5 0x0000238a n n
+afbb 0x0000208a 0x0000238a 0036 0x000023f5 0x000023ae n n
+afbb 0x0000208a 0x000023ae 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000023f5 0017 0x00002aca 0x00002406 n n
+afbb 0x0000208a 0x00002406 0013 0x0000244c 0x00002413 n n
+afbb 0x0000208a 0x00002413 0047 0x0000244c 0x00002442 n n
+afbb 0x0000208a 0x00002442 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x0000244c 0017 0x0000250b 0x0000245d n n
+afbb 0x0000208a 0x0000245d 0010 0x0000250b 0x00002467 n n
+afbb 0x0000208a 0x00002467 0047 0x000024a0 0x00002496 n n
+afbb 0x0000208a 0x00002496 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000024a0 0036 0x0000250b 0x000024c4 n n
+afbb 0x0000208a 0x000024c4 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x0000250b 0017 0x00002aca 0x0000251c n n
+afbb 0x0000208a 0x0000251c 0010 0x00002aca 0x00002526 n n
+afbb 0x0000208a 0x00002526 0047 0x0000255f 0x00002555 n n
+afbb 0x0000208a 0x00002555 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x0000255f 0040 0x00002aca 0x00002587 n n
+afbb 0x0000208a 0x00002587 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000025ce 0047 0x00002851 0x000025fd n n
+afbb 0x0000208a 0x000025fd 0016 0x00002678 0x0000260d n n
+afbb 0x0000208a 0x0000260d 0036 0x00002678 0x00002631 n n
+afbb 0x0000208a 0x00002631 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002678 0017 0x00002aca 0x00002689 n n
+afbb 0x0000208a 0x00002689 0013 0x000026cf 0x00002696 n n
+afbb 0x0000208a 0x00002696 0047 0x000026cf 0x000026c5 n n
+afbb 0x0000208a 0x000026c5 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000026cf 0017 0x0000278e 0x000026e0 n n
+afbb 0x0000208a 0x000026e0 0010 0x0000278e 0x000026ea n n
+afbb 0x0000208a 0x000026ea 0047 0x00002723 0x00002719 n n
+afbb 0x0000208a 0x00002719 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002723 0036 0x0000278e 0x00002747 n n
+afbb 0x0000208a 0x00002747 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x0000278e 0017 0x00002aca 0x0000279f n n
+afbb 0x0000208a 0x0000279f 0010 0x00002aca 0x000027a9 n n
+afbb 0x0000208a 0x000027a9 0047 0x000027e2 0x000027d8 n n
+afbb 0x0000208a 0x000027d8 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000027e2 0040 0x00002aca 0x0000280a n n
+afbb 0x0000208a 0x0000280a 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002851 0047 0x00002aca 0x00002880 n n
+afbb 0x0000208a 0x00002880 0016 0x000028fb 0x00002890 n n
+afbb 0x0000208a 0x00002890 0036 0x000028fb 0x000028b4 n n
+afbb 0x0000208a 0x000028b4 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000028fb 0017 0x00002aca 0x0000290c n n
+afbb 0x0000208a 0x0000290c 0013 0x00002952 0x00002919 n n
+afbb 0x0000208a 0x00002919 0047 0x00002952 0x00002948 n n
+afbb 0x0000208a 0x00002948 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002952 0017 0x00002a11 0x00002963 n n
+afbb 0x0000208a 0x00002963 0010 0x00002a11 0x0000296d n n
+afbb 0x0000208a 0x0000296d 0047 0x000029a6 0x0000299c n n
+afbb 0x0000208a 0x0000299c 0010 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x000029a6 0036 0x00002a11 0x000029ca n n
+afbb 0x0000208a 0x000029ca 0071 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002a11 0017 0x00002aca 0x00002a22 n n
+afbb 0x0000208a 0x00002a22 0010 0x00002aca 0x00002a2c n n
+afbb 0x0000208a 0x00002a2c 0047 0x00002a62 0x00002a5b n n
+afbb 0x0000208a 0x00002a5b 0007 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002a62 0036 0x00002aca 0x00002a86 n n
+afbb 0x0000208a 0x00002a86 0068 0x00002acf 0xffffffffffffffff n n
+afbb 0x0000208a 0x00002aca 0012 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002ad6 523 fcn.00002ad6 f n
+afbb 0x00002ad6 0x00002ad6 0030 0x00002b34 0x00002af4 n n
+afbb 0x00002ad6 0x00002af4 0016 0x00002b2e 0xffffffffffffffff n n
+afbb 0x00002ad6 0x00002b34 0013 0x00002b81 0x00002b41 n n
+afbb 0x00002ad6 0x00002b41 0016 0x00002b7b 0xffffffffffffffff n n
+afbb 0x00002ad6 0x00002b81 0016 0x00002c32 0x00002b91 n n
+afbb 0x00002ad6 0x00002b91 0019 0x00002c28 0xffffffffffffffff n n
+afbb 0x00002ad6 0x00002c32 0017 0x00002cdb 0x00002c43 n n
+afbb 0x00002ad6 0x00002c43 0016 0x00002cd1 0xffffffffffffffff n n
+afbb 0x00002ad6 0x00002cdb 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002ce1 398 fcn.00002ce1 f n
+afbb 0x00002ce1 0x00002ce1 0205 0x00002e2e 0x00002dae n n
+afbb 0x00002ce1 0x00002dae 0024 0x00002e0e 0x00002dc6 n n
+afbb 0x00002ce1 0x00002dc6 0013 0x00002de3 0x00002dd3 n n
+afbb 0x00002ce1 0x00002dd3 0016 0x00002e02 0xffffffffffffffff n n
+afbb 0x00002ce1 0x00002de3 0013 0x00002e00 0x00002df0 n n
+afbb 0x00002ce1 0x00002df0 0016 0x00002e02 0xffffffffffffffff n n
+afbb 0x00002ce1 0x00002e00 0002 0x00002e68 0xffffffffffffffff n n
+afbb 0x00002ce1 0x00002e0e 0006 0x00002e2e 0x00002e14 n n
+afbb 0x00002ce1 0x00002e14 0026 0x00002e2e 0xffffffffffffffff n n
+afbb 0x00002ce1 0x00002e2e 0010 0x00002e52 0x00002e38 n n
+afbb 0x00002ce1 0x00002e38 0026 0x00002e52 0xffffffffffffffff n n
+afbb 0x00002ce1 0x00002e52 0022 0x00002d8e 0x00002e68 n n
+afbb 0x00002ce1 0x00002e68 0007 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000970 6 sym.imp.exit s n
+afbb 0x00000970 0x00000970 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000008e0 6 sym.imp.signal s n
+afbb 0x000008e0 0x000008e0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000008d0 6 sym.imp.time s n
+afbb 0x000008d0 0x000008d0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000990 6 sym.imp.srand s n
+afbb 0x00000990 0x00000990 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002e6f 98 fcn.00002e6f f n
+afbb 0x00002e6f 0x00002e6f 0051 0x00002ec9 0x00002ea2 n n
+afbb 0x00002e6f 0x00002ec9 0008 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00002e6f 0x00002ea2 0039 0x00002ea8 0x00002ec9 n n
+af+ 0x00002ed1 17 fcn.00002ed1 f n
+afbb 0x00002ed1 0x00002ed1 0017 0x00002ee0 0xffffffffffffffff n n
+af+ 0x00002ee2 54 fcn.00002ee2 f n
+afbb 0x00002ee2 0x00002ee2 0054 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000008f0 6 sym.imp.alarm s n
+afbb 0x000008f0 0x000008f0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002d59 12 fcn.00002d59 f n
+afbb 0x00002d59 0x00002d59 0012 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002d5f 6 fcn.00002d5f f n
+afbb 0x00002d5f 0x00002d5f 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00001a70 139 fcn.00001ab7 f n
+afbb 0x00001a70 0x00001ab7 0018 0x00001ade 0x00001ac9 n n
+afbb 0x00001a70 0x00001ade 0015 0x00001a6f 0x00001aed n n
+afbb 0x00001a70 0x00001a6f 0070 0x00001ab9 0x00001ab5 n n
+afbb 0x00001a70 0x00001ab5 0004 0x00001ab9 0xffffffffffffffff n n
+afbb 0x00001a70 0x00001ac9 0021 0x00001ade 0xffffffffffffffff n n
+afbb 0x00001a70 0x00001aed 0014 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000009f0 6 sym.imp.rand s n
+afbb 0x000009f0 0x000009f0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00001b21 2 fcn.00001b21 f n
+afbb 0x00001b21 0x00001b21 0002 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000e3e 122 fcn.00000e3e f n
+afbb 0x00000e3e 0x00000e3e 0072 0x00000e94 0x00000e86 n n
+afbb 0x00000e3e 0x00000e86 0014 0x00000e94 0xffffffffffffffff n n
+afbb 0x00000e3e 0x00000e94 0036 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000880 6 sym.imp.printf s n
+afbb 0x00000880 0x00000880 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000890 6 sym.imp.fflush s n
+afbb 0x00000890 0x00000890 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000eb8 198 ask_tardis_key_eb8 f n
+afbb 0x00000eb8 0x00000eb8 0090 0x00000f54 0x00000f12 n n
+afbb 0x00000eb8 0x00000f12 0032 0x00000f50 0x00000f32 n n
+afbb 0x00000eb8 0x00000f32 0023 0x00000f50 0x00000f49 n n
+afbb 0x00000eb8 0x00000f49 0007 0x00000f78 0xffffffffffffffff n n
+afbb 0x00000eb8 0x00000f50 0004 0x00000f54 0xffffffffffffffff n n
+afbb 0x00000eb8 0x00000f54 0010 0x00000efa 0x00000f5e n n
+afbb 0x00000eb8 0x00000f5e 0015 0x00000f73 0x00000f6d n n
+afbb 0x00000eb8 0x00000f6d 0006 0x00000f5f 0x00000f73 n n
+afbb 0x00000eb8 0x00000f73 0011 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000f7e 169 fcn.00000f7e f n
+afbb 0x00000f7e 0x00000f7e 0068 0x00000fc9 0x00000fc2 n n
+afbb 0x00000f7e 0x00000fc2 0007 0x00001021 0xffffffffffffffff n n
+afbb 0x00000f7e 0x00000fc9 0006 0x00000fd6 0x00000fcf n n
+afbb 0x00000f7e 0x00000fcf 0007 0x00001021 0xffffffffffffffff n n
+afbb 0x00000f7e 0x00000fd6 0009 0x00000fef 0x00000fdf n n
+afbb 0x00000f7e 0x00000fdf 0016 0x00001021 0xffffffffffffffff n n
+afbb 0x00000f7e 0x00000fef 0030 0x00000f9f 0x0000100d n n
+afbb 0x00000f7e 0x0000100d 0026 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00001027 478 fcn.00001027 f n
+afbb 0x00001027 0x00001027 0105 0x0000109c 0x00001090 n n
+afbb 0x00001027 0x0000109c 0037 0x000010d4 0x000010c1 n n
+afbb 0x00001027 0x000010d4 0103 0x000011bb 0x0000113b n n
+afbb 0x00001027 0x000011bb 0053 0x000011fc 0x000011f0 n n
+afbb 0x00001027 0x000011fc 0009 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00001027 0x000011f0 0002 0x000011f7 0xffffffffffffffff n n
+afbb 0x00001027 0x0000113b 0018 0x000011bb 0x0000114d n n
+afbb 0x00001027 0x0000114d 0018 0x000011bb 0x0000115f n n
+afbb 0x00001027 0x0000115f 0018 0x000011bb 0x00001171 n n
+afbb 0x00001027 0x00001171 0074 0x000011f2 0xffffffffffffffff n n
+afbb 0x00001027 0x000010c1 0019 0x000011f2 0xffffffffffffffff n n
+afbb 0x00001027 0x00001090 0012 0x0000109c 0xffffffffffffffff n n
+af+ 0x00001205 707 sym.main s n
+afbb 0x00001205 0x00001205 0093 0x0000129c 0x00001262 n n
+afbb 0x00001205 0x00001262 0053 0x000014c3 0x00001297 n n
+afbb 0x00001205 0x00001297 0005 0x000014be 0xffffffffffffffff n n
+afbb 0x00001205 0x0000129c 0265 0x000013b1 0x000013a5 n n
+afbb 0x00001205 0x000013a5 0012 0x000013b1 0xffffffffffffffff n n
+afbb 0x00001205 0x000013b1 0013 0x0000142c 0x000013be n n
+afbb 0x00001205 0x000013be 0009 0x000013f6 0x000013c7 n n
+afbb 0x00001205 0x000013c7 0047 0x000013f6 0xffffffffffffffff n n
+afbb 0x00001205 0x000013f6 0054 0x0000135c 0xffffffffffffffff n n
+afbb 0x00001205 0x0000142c 0013 0x00001453 0x00001439 n n
+afbb 0x00001205 0x00001439 0026 0x00001453 0xffffffffffffffff n n
+afbb 0x00001205 0x00001453 0013 0x00001496 0x00001460 n n
+afbb 0x00001205 0x00001460 0012 0x0000148c 0x0000146c n n
+afbb 0x00001205 0x0000146c 0032 0x0000148c 0xffffffffffffffff n n
+afbb 0x00001205 0x0000148c 0010 0x0000135c 0xffffffffffffffff n n
+afbb 0x00001205 0x00001496 0035 0x0000135c 0xffffffffffffffff n n
+afbb 0x00001205 0x000014c3 0005 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00002d0d 354 print_maze_fcn f n
+afbb 0x00002d0d 0x00002d0d 0161 0x00002e2e 0x00002dae n n
+afbb 0x00002d0d 0x00002dae 0024 0x00002e0e 0x00002dc6 n n
+afbb 0x00002d0d 0x00002dc6 0013 0x00002de3 0x00002dd3 n n
+afbb 0x00002d0d 0x00002dd3 0016 0x00002e02 0xffffffffffffffff n n
+afbb 0x00002d0d 0x00002de3 0013 0x00002e00 0x00002df0 n n
+afbb 0x00002d0d 0x00002df0 0016 0x00002e02 0xffffffffffffffff n n
+afbb 0x00002d0d 0x00002e00 0002 0x00002e68 0xffffffffffffffff n n
+afbb 0x00002d0d 0x00002e0e 0006 0x00002e2e 0x00002e14 n n
+afbb 0x00002d0d 0x00002e14 0026 0x00002e2e 0xffffffffffffffff n n
+afbb 0x00002d0d 0x00002e2e 0010 0x00002e52 0x00002e38 n n
+afbb 0x00002d0d 0x00002e38 0026 0x00002e52 0xffffffffffffffff n n
+afbb 0x00002d0d 0x00002e52 0022 0x00002d8e 0x00002e68 n n
+afbb 0x00002d0d 0x00002e68 0007 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000009e0 6 sym.imp.gmtime s n
+afbb 0x000009e0 0x000009e0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000980 6 sym.imp.strftime s n
+afbb 0x00000980 0x00000980 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000bcb 229 fcn_send_sigalarm_in_2_seconds_bcb f n
+afbb 0x00000bcb 0x00000bcb 0042 0x00000c0f 0x00000bf5 n n
+afbb 0x00000bcb 0x00000c0f 0014 0x00000c80 0x00000c1d n n
+afbb 0x00000bcb 0x00000c80 0048 0xffffffffffffffff 0xffffffffffffffff n n
+afbb 0x00000bcb 0x00000c1d 0076 0x00000c72 0x00000c69 n n
+afbb 0x00000bcb 0x00000c72 0014 0x00000caa 0xffffffffffffffff n n
+afbb 0x00000bcb 0x00000c69 0009 0x00000c72 0xffffffffffffffff n n
+afbb 0x00000bcb 0x00000bf5 0026 0x00000c0f 0xffffffffffffffff n n
+af+ 0x000008b0 6 sym.imp.bzero s n
+afbb 0x000008b0 0x000008b0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000870 6 sym.imp.read s n
+afbb 0x00000870 0x00000870 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000940 6 sym.imp.isalnum s n
+afbb 0x00000940 0x00000940 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000008a0 6 sym.imp.getchar s n
+afbb 0x000008a0 0x000008a0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000009c0 6 sym.imp.__libc_start_main s n
+afbb 0x000009c0 0x000009c0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000860 6 sym.imp.setsockopt s n
+afbb 0x00000860 0x00000860 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000008c0 6 sym.imp.fgets s n
+afbb 0x000008c0 0x000008c0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000910 6 sym.imp.htons s n
+afbb 0x00000910 0x00000910 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000930 6 sym.imp.fwrite s n
+afbb 0x00000930 0x00000930 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000009a0 6 sym.imp.strchr s n
+afbb 0x000009a0 0x000009a0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000009b0 6 sym.imp.strlen s n
+afbb 0x000009b0 0x000009b0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x000009d0 6 sym.imp.write s n
+afbb 0x000009d0 0x000009d0 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a00 6 sym.imp.htonl s n
+afbb 0x00000a00 0x00000a00 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a20 6 sym.imp.socket s n
+afbb 0x00000a20 0x00000a20 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a30 6 sym.imp.atof s n
+afbb 0x00000a30 0x00000a30 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a40 6 sym.imp.connect s n
+afbb 0x00000a40 0x00000a40 0006 0xffffffffffffffff 0xffffffffffffffff n n
+af+ 0x00000a50 6 sym.imp.close s n
+afbb 0x00000a50 0x00000a50 0006 0xffffffffffffffff 0xffffffffffffffff n n
+# seek
+s 0x00001205
