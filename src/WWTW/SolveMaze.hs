@@ -1,6 +1,6 @@
 {-# LANGUAGE CPP #-}
 
-module SolveMaze (solveMaze) where
+module WWTW.SolveMaze (solveMaze) where
 
 #if __GLASGOW_HASKELL__ < 710
 import Control.Applicative
@@ -12,7 +12,7 @@ import Data.Maybe (fromJust, isJust)
 import Data.String.Utils (endswith)
 import System.IO (Handle, hPutStrLn)
 
-import Util
+import WWTW.Util
 
 data MazeElement = Player -- ^ V or ^ or < or >
                  | Enemy  -- ^ A

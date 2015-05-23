@@ -46,20 +46,38 @@ build-type:          Simple
 -- Constraint on the version of Cabal needed to build this package.
 cabal-version:       >=1.10
 
+library
 
-executable wibbly-wobbly-timey-wimey-haskell-solver
+  default-extensions:  CPP
+
+  exposed-modules:     WWTW.SolveMaze
+                     , WWTW.Util
+
+  hs-source-dirs:      src
+
+  build-depends:       base >= 4.8 && <4.9
+                     , MissingH >= 1.3 && <= 1.4
+                     , process >= 1.2 && <= 1.3
+
+  default-language:    Haskell2010
+  
+  ghc-options:         -Wall -threaded -O2
+
+executable wwtw-haskell-solver
   -- .hs or .lhs file containing the Main module.
   main-is:             Main.hs
   
   -- Modules included in this executable, other than Main.
-  other-modules:       SolveMaze
-                     , Util
+  other-modules:
+
+  default-extensions:  CPP
   
   -- LANGUAGE extensions used by modules in this package.
   other-extensions:    CPP
   
   -- Other library packages from which modules are imported.
   build-depends:       base >=4.8 && <4.9
+                     , wibbly-wobbly-timey-wimey-haskell-solver
                      , MissingH >= 1.3 && <= 1.4
                      , process >= 1.2 && <= 1.3
   

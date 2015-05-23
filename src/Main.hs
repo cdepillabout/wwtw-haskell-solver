@@ -10,8 +10,8 @@ import Control.Concurrent (threadDelay)
 import System.IO (BufferMode(NoBuffering, LineBuffering), Handle, hFlush, hGetContents, hPutStr, hPutStrLn, hSetBuffering)
 import System.Process (CreateProcess(..), StdStream(..), createProcess, proc)
 
-import SolveMaze
-import Util
+import WWTW.SolveMaze
+import WWTW.Util
 
 writeTardisKey :: String      -- ^ string that has been read so far from child's stdout (this isn't used)
                -> Handle      -- ^ 'Handle' of the child's stdin

@@ -1,6 +1,6 @@
 {-# LANGUAGE CPP #-}
 
-module Util where
+module WWTW.Util where
 
 #if __GLASGOW_HASKELL__ < 710
 import Control.Applicative
